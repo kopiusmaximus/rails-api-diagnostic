@@ -61,7 +61,7 @@ required for data to be returned to the client. (bullet points or ordered list)
 - on the server side, router hears request and matches it to the action persons#show
 - controller fires the persons#show action, which tells the Person model to get
   information about the Person object with an id of 1
-- model queries the database table 'persons' for the row with and id of 1
+- model queries the database table 'persons' for the row with an id of 1
 - assuming success, model takes the information returned by the database and
   gives it to the controller
 - controller packages the information about Person 1 into a JSON string
